@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#1F2937;
+    padding: 1em;
+    flex-direction: row;
+    
+}
+.list {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    
+   
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px
+}
+a:hover {
+    color: floralwhite;
+}
+
+.hero {
+    display: flex;
+    background-color:#1F2937;
+    padding-top: 2em;
+    padding-bottom: 2em;
+ 
+
+    /* flex-direction: column; */
+}
+.tulips {
+    height: 278px;
+    margin: 3em;
+}
+.card1 {
+padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+h2 {
+    font-size: 3em;
+}
+.sub {
+    color: white;
+    font-size: 48px;
+}
+.subtext {
+  color: white;
+  font-size: 18px;
+   
+}
+.boton {
+    border: none;
+    border-radius: 8px;
+    width: 6em;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 5px
+}
+
+
+
+.card2 {
+    margin: 1em;
+}
+
+h3 {
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+    
+}
+.images {
+    display: flex;
+   
+}
+
+
+.tulip {
+    width: 127px;
+    border: solid;
+    border-radius: 11px;
+}
+.text {
+    display: block;
+}
+.cards {
+    text-align: center;
+}
+
+/*end card2*/
+
+.card3 {
+    padding: 6em;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    height: 150px;
+}
+
+i {
+    font-size: 21px;
+}
+
+/*end card3*/
+
+.card4 {
+    display: flex;
+    margin: 4em;
+    padding: 2em;
+    background-color: rgb(73, 127, 228);
+    border-radius: 9px;
+    color: white;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: darkkhaki;
+    padding: 1em;
+    text-align: center;
+}
